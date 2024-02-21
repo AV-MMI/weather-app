@@ -1,0 +1,63 @@
+body,html {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    max-height: 100vh;
+    min-height: 100vh;
+}
+
+.center-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.v-center-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.h-center-flex {
+    display: flex;
+    justify-content: center;
+}
+
+.weather-cont {
+    background-color: #FFF6E9;
+    border: 3px solid #BBE2EC;
+    min-width: 720px;
+    max-width: 720px;
+    min-height: 100vh;
+    max-height: 100vh;
+}
+
+.location-cont {
+    background-color: #FFF3CF;
+    padding: 7px;
+}
+
+.input-location {
+    min-height: 42px;
+    max-height: 20px;
+    max-width: 300px;
+    min-width: 300px;
+    margin-right: 10px;
+    font-size: 17px;
+}
+
+.location-btn {
+    background-color: #5E5BFF;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 17px;
+    cursor: pointer;
+}
