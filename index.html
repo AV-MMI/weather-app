@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather app</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+</head>
+<body>
+    <main>
+        <div id="weather-cont" class="weather-cont">
+            <div id="weather-header" class="weather-header">
+                <h1>Weather App</h1>
+                <div id="location-cont">
+                    <input type="text" placeholder="enter here your location">
+                    <button class="btn location-btn" id="location-btn"></button>
+                </div>
+            </div>
+
+            <div id="today-display" class="today-display">
+                <div class="gif-cont" id="gif-cont">
+                    <img src="" alt="today-gif">
+                </div>
+
+                <div class="data-cont" id="data-cont">
+                    <div class="first-row" id="first-row">
+                        <span>Data: data</span>
+                        <span>Data: data</span>
+                        <span>Data: data</span>
+                    </div>
+                    
+                    <div class="second-row" id="second-row">
+                        <span>Data: data</span>
+                        <span>Data: data</span>
+                        <span>Data: data</span>
+                    </div>
+                </div>
+            </div>
+
+            <div id="next-days" class="next-days">
+                <div id="tomorrow-div" class="nextday-cont">
+                    <span>tomorrow</span>
+                    <img src="" alt="tomorrow-gif">
+                    <span>Sunny</span>
+                </div>
+
+                <div id="pasttomorrow-div" class="nextday-cont">
+                    <span >past tomorrow</span>
+                    <img src="" alt="tomorrow-gif">
+                    <span>Sunny</span>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="./js/scripts.js"></script>
+</body>
+</html>
