@@ -12,27 +12,27 @@
             <div id="weather-header" class="weather-header v-center-flex">
                 <h1>Weather App</h1>
                 <div id="location-cont" class="location-cont h-center-flex">
-                    <input type="text" placeholder="enter here your location" class="input-location">
+                    <input type="text" placeholder="Enter city name" id="input-location" class="input-location">
                     <button class="location-btn" id="location-btn">get weather!</button>
                 </div>
             </div>
 
             <div id="today-display" class="today-display v-center-flex">
                 <div class="gif-cont" id="gif-cont">
-                    <img src="https://media.giphy.com/media/uqpK3SuxEY4W9YQvdg/giphy.gif?cid=790b7611j6sdzedyjdw0tsf18jvagddlmcy9rj80mwhyltos&ep=v1_gifs_search&rid=giphy.gif&ct=g" alt="today-gif" class="today-gif">
+                    <img src="https://media.giphy.com/media/uqpK3SuxEY4W9YQvdg/giphy.gif?cid=790b7611j6sdzedyjdw0tsf18jvagddlmcy9rj80mwhyltos&ep=v1_gifs_search&rid=giphy.gif&ct=g" id="today-gif" alt="today-gif" class="today-gif">
                 </div>
 
                 <div class="data-cont h-space-a-flex" id="data-cont">
                     <div class="first-row v-center-flex" id="first-row">
-                        <span>Data: data</span>
-                        <span>Data: data</span>
-                        <span>Data: data</span>
+                        <span id="condition" class="data-span">Condition: ligt rain</span>
+                        <span id="wind" class="data-span">Wind kph: 20/kph</span>
+                        <span id="precipitation" class="data-span">Precipicitation: 10</span>
                     </div>
                     
                     <div class="second-row v-center-flex" id="second-row">
-                        <span>Data: data</span>
-                        <span>Data: data</span>
-                        <span>Data: data</span>
+                        <span id="uv" class="data-span">UV: 10</span>
+                        <span id="humidity" class="data-span">Humidity: 90%</span>
+                        <span id="temp" class="data-span">Temperature: 29Cº</span>
                     </div>
                 </div>
             </div>

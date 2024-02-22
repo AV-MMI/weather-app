@@ -43,17 +43,17 @@ body {
 }
 
 .today-gif {
-    min-width: 420px;
-    max-width: 420px;
-    min-height: 210px;
-    max-height: 210px;
+    min-width: 240px;
+    max-width: 240px;
+    min-height: 240px;
+    max-height: 240px;
 }
 
 .next-day-gif {
-    min-width: 180px;
-    max-width: 180px;
-    min-height: 90px;
-    max-height: 90px;
+    min-width: 100px;
+    max-width: 100px;
+    min-height: 100px;
+    max-height: 100px;
 }
 
 .weather-cont {
@@ -68,6 +68,8 @@ body {
 .location-cont {
     background-color: #FFF3CF;
     padding: 7px;
+    max-width: 480px;
+    min-width: 480px;
 }
 
 .input-location {
