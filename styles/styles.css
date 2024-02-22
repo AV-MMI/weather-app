@@ -10,6 +10,7 @@ body,html {
 body {
     max-height: 100vh;
     min-height: 100vh;
+    font-size: 20px;
 }
 
 .center-flex {
@@ -24,9 +25,35 @@ body {
     align-items: center;
 }
 
+.v-center-space-b-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .h-center-flex {
     display: flex;
     justify-content: center;
+}
+
+.h-space-a-flex {
+    display: flex;
+    justify-content: space-around;
+}
+
+.today-gif {
+    min-width: 420px;
+    max-width: 420px;
+    min-height: 210px;
+    max-height: 210px;
+}
+
+.next-day-gif {
+    min-width: 180px;
+    max-width: 180px;
+    min-height: 90px;
+    max-height: 90px;
 }
 
 .weather-cont {
@@ -49,7 +76,7 @@ body {
     max-width: 300px;
     min-width: 300px;
     margin-right: 10px;
-    font-size: 17px;
+    font-size: 24px;
 }
 
 .location-btn {
@@ -60,4 +87,28 @@ body {
     padding: 10px;
     font-size: 17px;
     cursor: pointer;
+}
+
+
+.today-display {
+    padding: 30px;
+    background-color: #FFF3CF;
+    max-width: 480px;
+    min-width: 480px;
+}
+
+.data-cont {
+    width: 420px;
+    margin-top: 30px;
+}
+
+.next-days-cont {
+    padding: 30px;
+    max-width: 480px;
+    min-width: 480px;
+    background-color: #FFF3CF;
+}
+
+.nextday-cont > span {
+    margin: 10px;
 }
